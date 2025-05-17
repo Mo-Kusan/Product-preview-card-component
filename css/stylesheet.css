@@ -1,0 +1,146 @@
+.outfit-normal {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-normal {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fraunces-bold {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.green_500 {
+    color: hsl(158, 36%, 37%);
+}
+
+.bgc_green_500 {
+    background-color: hsl(158, 36%, 37%);
+}
+
+.green_700 {
+    color: hsl(158, 42%, 18%);
+}
+
+.bgc_green_700 {
+    background-color: hsl(158, 42%, 18%);
+}
+
+.white {
+    color: hsl(0, 0%, 100%);
+}
+
+.bgc_white {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.bgc_cream {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.grey {
+    color: hsl(228, 12%, 48%);
+}
+
+.black {
+    color: hsl(212, 21%, 14%);
+}
+
+.border_radius_10 {
+    border-radius: 10px;
+}
+
+p {
+    font-size: 14px;
+}
+
+body {
+    height: 90vh;
+}
+
+main {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    width: 90%;
+}
+
+
+#card source, #card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#presentation_wrapper {
+    padding: 0.5rem 1.5rem 1.5rem;
+}
+
+#presentation_wrapper p {
+    line-height: 1.5rem;
+} 
+
+h1 {
+    margin: 0.7rem 0;
+}
+
+#perfume {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: small;
+}
+
+#price {
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#price td:first-child {
+    font-size: 2em;
+}
+
+#price td:last-child {
+    font-size: 0.8em;
+    text-decoration: line-through;
+}
+
+#cart {
+    padding: 1rem;
+    text-align: center;
+}
+
+#cart img {
+    width: 7%;
+}
+
+#cart p {
+    display: inline;
+    vertical-align: bottom;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+@media screen and (min-width: 48em) {
+    main {
+        flex-direction: row;
+    }
+}
+
