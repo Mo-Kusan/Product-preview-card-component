@@ -67,7 +67,7 @@ p {
 }
 
 body {
-    height: 90vh;
+    height: 100vh;
 }
 
 main {
@@ -176,6 +176,11 @@ h1 {
     #price td:last-child {
         text-align: center;
     }       
+
+    #cart:hover {
+        background-color: hsl(158, 42%, 18%);
+        cursor: pointer;
+    }
 
 }
 
