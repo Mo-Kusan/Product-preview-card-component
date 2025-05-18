@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/product-preview-card-component-xCaUAEI895)
-- Live Site URL: [Add live site URL here](https://mo-kusan.github.io/Product-preview-card-component/)
+- Solution URL: [solution here](https://www.frontendmentor.io/solutions/product-preview-card-component-xCaUAEI895)
+- Live Site URL: [live site](https://mo-kusan.github.io/Product-preview-card-component/)
 
 ## My process
 
